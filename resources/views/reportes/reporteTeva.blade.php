@@ -1,0 +1,33 @@
+@extends('layouts.app')
+@section('content')
+<div></div>
+<div>BI Demand Planning</div>
+<div></div>
+<div>
+    <fieldset>
+        <div>
+            <div>
+                <div id="divRegistros"></div>
+            </div>
+        </div>
+        <div id="canvas-holder" style="width:90%">
+            <canvas id="chart-area0" />
+        </div>
+    </fieldset>
+
+    <div id="canvas-holder" style="width:25%">
+        <canvas id="chart-area1" />
+    </div>
+    <div id="canvas-holder" style="width:25%">
+        <canvas id="chart-area2" />
+    </div>
+    <div id="canvas-holder" style="width:25%">
+        <canvas id="chart-area3" />
+    </div>
+    <div id="canvas-holder" style="width:25%">
+        <canvas id="chart-area4" />
+    </div>
+</div>
+
+<script src="js/reportes/reporteTeva.js"></script>
+@endsection
