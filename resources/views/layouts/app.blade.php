@@ -76,6 +76,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
-    <script src="{{ asset('js/static/Chart.min.js') }}"></script>    
+    <script src="{{ asset('js/static/Chart.min.js') }}"></script>
+    <script src="js/reportes/reporteTeva.js"></script>
 </body>
 </html>
